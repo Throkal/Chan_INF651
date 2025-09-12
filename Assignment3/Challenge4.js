@@ -6,6 +6,9 @@ if(userNum>0){
 else if(userNum<0){
     alert("The number is negative");
 }
-else{
+else if (userNum==0){
     alert("The number is zero");
+}
+else{
+    alert("Invalid");
 }
