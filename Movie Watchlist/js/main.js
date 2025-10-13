@@ -44,12 +44,12 @@ function showMovies() {
         spanTitle.className = "movie-title";
         spanTitle.textContent = movies[i];
 
-        // create a "Watched" button
+        // create a Watched button
         const removeBtn = document.createElement("button");
         removeBtn.className = "remove-btn";
         removeBtn.textContent = "Watched";
 
-        // when the button is clicked, remove that movie
+        // when watched button is clicked, remove that movie
         removeBtn.onclick = function () {
             removeMovie(i);
         };
