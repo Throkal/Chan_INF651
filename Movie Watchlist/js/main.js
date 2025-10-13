@@ -39,12 +39,12 @@ function showMovies() {
         const li = document.createElement("li");
         li.className = "collection-item";
 
-        // create a span to show the movie title
+        // create a span to show movie title
         const spanTitle = document.createElement("span");
         spanTitle.className = "movie-title";
         spanTitle.textContent = movies[i];
 
-        // create an actual "Watched" button
+        // create a "Watched" button
         const removeBtn = document.createElement("button");
         removeBtn.className = "remove-btn";
         removeBtn.textContent = "Watched";
@@ -53,7 +53,6 @@ function showMovies() {
         removeBtn.onclick = function () {
             removeMovie(i);
         };
-
         // add movie title and button to the list item
         li.appendChild(spanTitle);
         li.appendChild(removeBtn);
