@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<header>
+  <div class="logo">Medicare+</div>
+  <nav>
+    <a class="active-page" href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="products.html">Products</a>
+    <a href="contact.html">Contact</a>
+    <a href="cart.html">Cart</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Medicine and Medical Devices</h1>
+    <p id="welcomeText">Welcome to Medicare+ - your trusted medical essentials store.</p>
+
+    <div class="btn-group">
+      <a class="btn-primary" href="products.html">SHOP NOW</a>
+      <button class="aboutUs-btn" id="aboutUsBtn">ABOUT US</button>
+
+
+    </div>
+    
+    <div id="moodBox" class="mood-box">
+      <p>How are you feeling today?</p>
+
+      <div class="mood-buttons">
+        <button class="mood-btn" data-mood="good">🙂 Good</button>
+        <button class="mood-btn" data-mood="okay">😐 Okay</button>
+        <button class="mood-btn" data-mood="bad">🤒 Not Well</button>
+      </div>
+
+      <p id="moodResponse" class="mood-response"></p>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
